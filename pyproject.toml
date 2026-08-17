@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledgebase"
+version = "0.1.0"
+description = "LLM Wiki 知识库框架：Raw/Wiki/Schema 三层 + 增量编译 + 体检 + 关系图谱。可独立复用，任意项目 import 调用。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "guangluo" }]
+keywords = ["llm", "wiki", "knowledge-base", "rag", "graph"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["knowledgebase"]

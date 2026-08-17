@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 运行时数据（用户知识库内容，绝不进库）
+wiki/
+*.json
+!pyproject.toml
+!package.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+*.swp
